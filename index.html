@@ -301,9 +301,9 @@
 <main>
   <section class="hero">
     <div class="wrap">
-      <div class="hero-kicker"><span class="dot"></span> AVAILABLE FOR DATA ENGINEERING / DATA SCIENCE / PYTHON ROLES</div>
-      <h1>Yash Shekhawat<br><span class="accent">builds with data,</span><br>ships in Python & SQL.</h1>
-      <p class="lede">AI & Data Science undergrad from Jaipur, India — I turn raw tables into warehouses, models into apps, and ideas into working code.</p>
+      <div class="hero-kicker"><span class="dot"></span> AVAILABLE FOR DATA ENGINEERING / DATA SCIENCE / PYTHON ROLES / QA AUTOMATION ROLES</div>
+      <h1>Yash Shekhawat<br>  <span class="accent">builds with Python,</span><br>  works with Data & AI,<br>  automates with Code.</h1>
+      <p class="lede">AI & Data Science graduate from Jaipur, India — I build Python applications, develop data pipelines, explore AI/ML solutions, and work with software testing and automation technologies.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#contact">$ contact --me</a>
         <a class="btn btn-ghost" href="#projects">view projects/</a>
@@ -332,7 +332,7 @@
           <div class="code-body">
 <span class="kw">SELECT</span> name, field, location, status
 <span class="kw">FROM</span> <span class="fn">profile</span>
-<span class="kw">WHERE</span> interests <span class="kw">IN</span> (<span class="str">'Data Engineering'</span>, <span class="str">'Data Science'</span>, <span class="str">'Python Dev'</span>);
+<span class="kw">WHERE</span> interests <span class="kw">IN</span> (<span class="str">'Data Engineering'</span>, <span class="str">'QA Automation'</span>, <span class="str">'Python Dev'</span>, <span class="str">'Data Science'</span>);
           </div>
           <div style="padding:0 20px 20px;">
             <table class="result">
@@ -349,7 +349,7 @@
         </div>
         <div class="reveal">
           <p style="color:var(--text-dim); font-size:14.5px; margin-bottom:20px;">
-            B.Tech in Artificial Intelligence & Data Science at Arya College of Engineering, Jaipur (2022–2026). I like the parts of the stack where messy data becomes something queryable, and where a model actually makes it into an app someone can click.
+           B.Tech graduate in Artificial Intelligence & Data Science from Arya College of Engineering, Jaipur. My technical interests span Python development, Data Engineering, Data Science, and QA Automation. I enjoy building applications, working with databases and APIs, developing data pipelines, and exploring automated testing using JavaScript and Playwright.
           </p>
           <div class="stat-cards">
             <div class="stat"><div class="n">8.0</div><div class="l">CGPA</div></div>
@@ -370,6 +370,8 @@
       <div class="tabs">
         <div class="tab active" data-tab="lang">languages</div>
         <div class="tab" data-tab="data">data & analytics</div>
+        <div class="tab" data-tab="api">API & Development</div>
+        <div class="tab" data-tab="testing">Testing & Automation</div>
         <div class="tab" data-tab="ai">ai / ml</div>
         <div class="tab" data-tab="tools">tools & viz</div>
       </div>
@@ -378,10 +380,16 @@
         <div class="code-head"><span>skills.py</span><span>python3</span></div>
 
         <div class="skill-panel active" data-panel="lang">
-          <div class="code-body"><span class="fn">languages</span> = [<span class="str">"Python"</span>, <span class="str">"SQL"</span>, <span class="str">"T-SQL"</span>, <span class="str">"C"</span>, <span class="str">"C++"</span>]</div>
+          <div class="code-body"><span class="fn">languages</span> = [<span class="str">"Python"</span>, <span class="str">"SQL"</span>, <span class="str">"T-SQL"</span>, <span class="str">"C"</span>, <span class="str">"C++"</span>, <span class="str">"JavaScript"</span>]</div>
         </div>
         <div class="skill-panel" data-panel="data">
           <div class="code-body"><span class="fn">data_analytics</span> = [<span class="str">"EDA"</span>, <span class="str">"Data Cleaning"</span>, <span class="str">"Data Warehousing"</span>, <span class="str">"Dimensional Modeling"</span>, <span class="str">"ETL"</span>, <span class="str">"Star Schema"</span>, <span class="str">"Analytical SQL"</span>]</div>
+        </div>
+        <div class="skill-panel" data-panel="api">
+          <div class="code-body"><span class="fn">API & Development</span> = [<span class="str">"REST APIs"</span>, <span class="str">"Flask"</span>, <span class="str">"Postman"</span>, <span class="str">"Streamlit"</span>]</div>
+        </div>
+        <div class="skill-panel" data-panel="testing">
+          <div class="code-body"><span class="fn">Testing & Automation</span> = [<span class="str">"Playwright"</span>, <span class="str">"Manual & Automation Testing"</span>, <span class="str">"Functional & Regression Testing"</span>]</div>
         </div>
         <div class="skill-panel" data-panel="ai">
           <div class="code-body"><span class="fn">ai_ml</span> = [<span class="str">"Machine Learning"</span>, <span class="str">"Generative AI"</span>, <span class="str">"NLP"</span>, <span class="str">"Scikit-learn"</span>, <span class="str">"TensorFlow"</span>, <span class="str">"spaCy"</span>, <span class="str">"Pandas"</span>, <span class="str">"NumPy"</span>]</div>
@@ -568,8 +576,8 @@
   // Terminal typing sequence
   const lines = [
     { p: "yash@jaipur", path: "~", cmd: "whoami", out: "Yash Shekhawat — AI & Data Science, final year @ Arya College of Engineering" },
-    { p: "yash@jaipur", path: "~", cmd: "cat status.txt", out: "Open to Data Engineering / Data Science / Python roles" },
-    { p: "yash@jaipur", path: "~", cmd: "python3 -c \"print(stack)\"", out: "['Python', 'SQL', 'ML', 'Flask']", ok:true }
+    { p: "yash@jaipur", path: "~", cmd: "cat status.txt", out: "Open to Data Engineering / Data Science / Python roles / QA Automation " },
+    { p: "yash@jaipur", path: "~", cmd: "python3 -c \"print(stack)\"", out: "['Python', 'SQL', 'JavaScript','ML', 'Flask']", ok:true }
   ];
   const termBody = document.getElementById('term-body');
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
